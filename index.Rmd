@@ -14,3 +14,7 @@ I like [google](https://www.google.com)
 ### Internal link
 
 I can link directly to my [about page](about.html).
+
+### Picture of Jeff's dog
+
+<img src="images/p8105_logo.jpg" style="width:75%">
