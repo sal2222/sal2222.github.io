@@ -18,3 +18,16 @@ I can link directly to my [about page](about.html).
 ### Picture of Jeff's dog
 
 <img src="images/p8105_logo.jpg" style="width:75%">
+
+### I can add [code](code.html)
+
+```{r}
+library(tidyverse)
+tibble(
+    x = 1:10,
+    y = x + 2
+)
+
+```
+
+
