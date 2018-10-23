@@ -1,7 +1,15 @@
+---
+title: "Plotly"
+---
+
+This page shows some example plotly plots.
+
+
 ```{r}
 library(tidyverse)
 library(viridis)
 library(p8105.datasets)
+
 library(plotly)
 ```
 
