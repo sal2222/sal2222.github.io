@@ -1,23 +1,36 @@
 ---
-title: "Holy cow!"
+title: "Stephen Lewandowski"
 output:
   html_document:
     toc: true
     toc_float: true
 ---
 
-### I have a webpage!
+Welcome to my personal website!
 
-And I can put all kinds of stuff on it!
+<img src="images/cumc_photo.jpg" style="width:25%">
 
+### Academic and professional experience
 
-### Add some links
+A page giving my academic and professional experience -- [resume] (resume.html)
 
+### Links 
+
+My [GitHub account] (https://github.com/sal2222)  
+My [email] (sal2222@cumc.columbia.edu)  
+Other professional networks  
 I like [google](https://www.google.com)
 
-### Internal link
+### NY NOAA Flexdashboard
+
+Create a [flexdashboard](flexdashboard.html) using plotly for that includes at least three distinct plot types (e.g. scatterplots, line plots, bar plots, box plots, etc.)
+
+### About page
 
 I can link directly to my [about page](about.html).
+
+
+
 
 ### Picture of Jeff's dog
 
