@@ -6,7 +6,9 @@ output:
     toc_float: true
 ---
 
-Welcome to my personal website!
+### ADD RESUME PAGE~~~~~~~~~~~~~
+
+Welcome to my personal website! I am a second year PhD student at Columbia University Mailman School of Public Health in the Environmental Health Sciences Climate and Health program.        
 
 <img src="images/cumc_photo.jpg" style="width:25%">
 
@@ -16,16 +18,20 @@ A page giving my academic and professional experience -- [resume] (resume.html)
 
 ### Links 
 
-My [GitHub account] (https://github.com/sal2222)  
-My [email] (sal2222@cumc.columbia.edu)  
-Other professional networks  
-I like [google](https://www.google.com)
+[GitHub](https://github.com/sal2222)    
+
+[LinkedIn](https://www.linkedin.com/in/stevelewandowski/)  
+
+[Climate and Health Program](https://www.mailman.columbia.edu/research/climate-and-health-program)  
+
+[E-mail](sal2222@cumc.columbia.edu)    
+
 
 ### NY NOAA Flexdashboard
 
 Create a [flexdashboard](flexdashboard.html) using plotly for that includes at least three distinct plot types (e.g. scatterplots, line plots, bar plots, box plots, etc.)
 
-### About page
+### About this site
 
 I can link directly to my [about page](about.html).
 

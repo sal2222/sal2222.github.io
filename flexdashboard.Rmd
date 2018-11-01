@@ -1,0 +1,79 @@
+---
+title: "flexdashboard"
+output: 
+  flexdashboard::flexdashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(viridis)
+library(p8105.datasets)
+library(plotly)
+library(flexdashboard)
+library(rnoaa)
+```
+
+This dashboard examines daily weather from GHCND station ID "USC00309292", located in West Point, NY, from January 01, 1998 to December 31, 2002.  
+
+Station details are available from [NOAA](https://www.ncdc.noaa.gov/cdo-web/datasets/GHCND/stations/GHCND:USC00309292/detail). The station is located near the Cadet Chapel at the United States Military Academy.
+
+
+```{r}
+
+data(ny_noaa)
+
+
+west_point_noaa <- 
+  ny_noaa %>%
+  filter(id == "USC00309292",
+         date > "1998-01-01" & date < "2002-12-31")
+  
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+
+west_point_noaa %>%
+  mutate(text_label = str_c("tmax: ", tmax, '\ntmin: ', tmin, "date: " = date)) %>% 
+  plot_ly(x = ~tmax, y = ~tmin, type = "scatter", mode = "markers",
+          alpha = 0.5, 
+          color = ~lubridate::year(date),
+          text = ~text_label)
+
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+common_neighborhoods =
+  nyc_airbnb %>% 
+  count(neighbourhood, sort = TRUE) %>% 
+  top_n(8) %>% 
+  select(neighbourhood)
+## Selecting by n
+
+inner_join(nyc_airbnb, common_neighborhoods,
+             by = "neighbourhood") %>% 
+  mutate(neighbourhood = fct_reorder(neighbourhood, price)) %>% 
+  plot_ly(y = ~price, color = ~neighbourhood, type = "box",
+          colors = "Set2")
+```
+
+### Chart C
+
+```{r}
+nyc_airbnb %>% 
+  count(neighbourhood) %>% 
+  mutate(neighbourhood = fct_reorder(neighbourhood, n)) %>% 
+  plot_ly(x = ~neighbourhood, y = ~n, color = ~neighbourhood, type = "bar")
+```
