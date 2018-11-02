@@ -13,7 +13,7 @@ rmarkdown::render("flex_dashboard.Rmd", output_format = "flex_dashboard")
 Welcome to my personal website! I am a second year PhD student at Columbia University Mailman School of Public Health in the Environmental Health Sciences Climate and Health program.        
 
 
-<img src="images/cumc_photo.jpg" style="width:25%">
+<img src="images/cumc_photo.JPG" style="width:25%">
 
 
 ### Academic and professional experience
