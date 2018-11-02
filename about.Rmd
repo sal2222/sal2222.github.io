@@ -4,6 +4,19 @@ title: "About"
 
 ### About this site
 
-Sometimes you need to say a bit about the site -- how it was made, where it's hosted, where the source code can be found. 
+This site was made in R Markdown on RStudio and is hosted on GitHub.
 
-If this is for a project or analysis, I recommend giving some details about the R package versions that you used to create the content.
+The source code can be found at: https://github.com/sal2222/sal2222.github.io.
+
+The R packages used include:
+
+```{r package_table, echo = FALSE, message = FALSE, warning = FALSE}
+library(tidyverse)
+packages_df <- tibble(
+  package = c("tidyverse", "flexdashboard", "plotly", "viridis", "knitr", "p8105.datasets"),
+  version = c("1.2.1", "0.5.1.1", "4.8.0", "0.5.1", "1.20", "0.0.1") 
+)
+
+knitr::kable(packages_df)
+```
+

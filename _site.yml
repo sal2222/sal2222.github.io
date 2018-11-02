@@ -1,14 +1,20 @@
-name: "Yay internet!"
+name: "Stephen Lewandowski"
 output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "About"
-      href: about.html
+    - text: "Resume"
+      href: resume.html
+    - icon: fa-chart-line fa-lg
+      href: flex_dashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<sal2222@cumc.columbia.edu>
     - icon: fa-github fa-lg
       href: http://github.com/sal2222/
+    - icon: fa-linkedin fa-lg
+      href: http://www.linkedin.com/in/stevelewandowski/ 
+    - text: "About"
+      href: about.html
 output:
   html_document:
     theme: cosmo  #bootswatch.com

@@ -1,118 +1,127 @@
 ---
 title: "Resume"
 ---
+```{r resume notes, include = FALSE}
+# This page gives my academic and professional experience.
+```
 
-Stephen A. Lewandowski, CPH
-Major (Promotable), U.S. Army
-sal2222@cumc.columbia.edu
-stephen.a.lewandowski.mil@mail.mil
-(Cell): 253-548-5207
+Stephen A. Lewandowski, CPH 
+PhD Student, Columbia University Mailman School of Public Health  
+Major (Promotable), U.S. Army  
+sal2222@cumc.columbia.edu  
+stephen.a.lewandowski.mil@mail.mil  
+(Cell): 253-548-5207  
 
 ## EDUCATION
 
-Master of Science, Environmental Health (May 2011)
-Harvard School of Public Health, Boston, MA
-GPA: 3.834
+Master of Science, Environmental Health (May 2011)  
+Harvard School of Public Health, Boston, MA  
+GPA: 3.834  
 	
-Bachelor of Science, Environmental Science (June 2002) 
-United States Military Academy, West Point, NY
-GPA: 3.75
-Dean’s List and Distinguished Cadet; Order of Founders and Patriots of America Award for Excellence in Environmental Science and Environmental Engineering 
+Bachelor of Science, Environmental Science (June 2002)   
+United States Military Academy, West Point, NY  
+GPA: 3.75  
+Dean’s List and Distinguished Cadet; Order of Founders and Patriots of America Award for Excellence in Environmental Science and Environmental Engineering   
 
 
 ## TEACHING EXPERIENCE
 
-Assistant Professor, Department of Geography and Environmental Engineering
-United States Military Academy, West Point, NY (2011-2014)
-Course Director and Instructor for EV300, Environmental Science
-Course Director and Instructor for EV396, Environmental Biological Systems
+*Assistant Professor, Department of Geography and Environmental Engineering*    
+United States Military Academy, West Point, NY (2011-2014)  
+Course Director and Instructor for EV300, Environmental Science  
+Course Director and Instructor for EV396, Environmental Biological Systems  
 
 
 ## CREDETIALING
 
-Certified in Public Health
+Certified in Public Health  
 National Board of Public Health Examiners, NBPHE Number 12320 (2016)
 
 
 ## PROFESSIONAL EXPERIENCE 
 
-### Deputy, Clinical Operations
-62nd Medical Brigade, Joint Base Lewis-McChord, WA (2014-present)
-•	Oversee the impact of all medical functions on the clinical services provided within the command
-•	Plan, monitor, analyze, and recommend preventive medicine activities to enable flexible, responsive, and effective force health protection
-•	Assigned to the U.S. Pacific Command Humanitarian Assistance mission; participated in China Disaster Management Exchange  
+### Deputy, Clinical Operations  
+*62nd Medical Brigade, Joint Base Lewis-McChord, WA (2014-present)*    
+* Oversee the impact of all medical functions on the clinical services provided within the command  
+*	Plan, monitor, analyze, and recommend preventive medicine activities to enable flexible, responsive, and effective force health protection  
+*	Assigned to the U.S. Pacific Command Humanitarian Assistance mission; participated in China Disaster Management Exchange     
 
 ### Assistant Professor
-Department of Geography and Environmental Engineering, United States Military Academy, West Point, NY (2011-2014)
-•	Responsible for the development and execution of course materials, graded exercises, and evaluation of cadet performance; served as academic counselor
-•	Contributed to successful ABET accreditation for the environmental engineering major during year of record review
-•	Public relations officer for the USMA chapter Phi Kappa Phi interdisciplinary academic honor society, orienteering team officer representative, and Medical Service Corps branch mentor  
+*Department of Geography and Environmental Engineering, United States Military Academy, West Point, NY (2011-2014)*    
+*	Responsible for the development and execution of course materials, graded exercises, and evaluation of cadet performance; served as academic counselor  
+*	Contributed to successful ABET accreditation for the environmental engineering major during year of record review  
+*	Public relations officer for the USMA chapter Phi Kappa Phi interdisciplinary academic honor society, orienteering team officer representative, and Medical Service Corps branch mentor    
 
-### Executive Officer/ Executive Assistant
-Comprehensive Soldier Fitness Directorate, Headquarters, Department of the Army, Deputy Chief of Staff G-3/5/7, Washington, DC. (2008 – 2009)
-•	Primary action officer for the establishment of a new directorate with a mission to improve physical and psychological health, resilience, and performance of soldiers, families and Army civilians
-Executive Assistant for the Assistant Surgeon General-Force Projection
-Office of the Surgeon General, Washington, DC. (2007 – 2008)
-•	Primary planner and action officer assisting the Army Assistant Surgeon General with discharge of 10 U.S.C. responsibilities for overall management of the Army-wide health services system  
+### Executive Officer/ Executive Assistant  
+*Comprehensive Soldier Fitness Directorate, Headquarters, Department of the Army, Deputy Chief of Staff G-3/5/7, Washington, DC. (2008 – 2009)*    
+*	Primary action officer for the establishment of a new directorate with a mission to improve physical and psychological health, resilience, and performance of soldiers, families and Army civilians  
 
-### Chief, Environmental Health
-Dewitt Healthcare Network, Fort Belvoir, VA (2006-2007)
-•	Led comprehensive environmental health and industrial hygiene programs serving the Fort Belvoir and Fort A.P. Hill communities, a community hospital, and three family health centers  
+###Executive Assistant for the Assistant Surgeon General-Force Projection  
+*Office of the Surgeon General, Washington, DC. (2007 – 2008)*    
+*	Primary planner and action officer assisting the Army Assistant Surgeon General with discharge of 10 U.S.C. responsibilities for overall management of the Army-wide health services system  
 
-### Brigade Preventive Medicine Officer
-1st Brigade, 25th Infantry Division (SBCT), Fort Lewis, WA and Mosul, Iraq (2004-2005)
-•	Served as the brigade preventive medicine officer during Operation Iraqi Freedom II-III
-•	Assessed and mitigated medical threats and environmental and occupational health hazards for over 8,000 personnel throughout the Multi National Forces - North West area
-Environmental Science Project Officer
-U.S. Army Center for Health Promotion and Preventive Medicine-Europe, Landstuhl, Germany (2002-2004)
-•	Served as project officer for a forward-based, theater-level preventive medicine command
-•	Planned and executed environmental health science projects in support of U.S. military and civilian personnel throughout the European and Central Command areas of responsibility
+### Chief, Environmental Health  
+*Dewitt Healthcare Network, Fort Belvoir, VA (2006-2007)*    
+*	Led comprehensive environmental health and industrial hygiene programs serving the Fort Belvoir and Fort A.P. Hill communities, a community hospital, and three family health centers  
+
+### Brigade Preventive Medicine Officer  
+*1st Brigade, 25th Infantry Division (SBCT), Fort Lewis, WA and Mosul, Iraq (2004-2005)*    
+*	Served as the brigade preventive medicine officer during Operation Iraqi Freedom II-III  
+*	Assessed and mitigated medical threats and environmental and occupational health hazards for over 8,000 personnel throughout the Multi National Forces - North West area  
+
+### Environmental Science Project Officer  
+*U.S. Army Center for Health Promotion and Preventive Medicine-Europe, Landstuhl, Germany (2002-2004)*    
+*	Served as project officer for a forward-based, theater-level preventive medicine command  
+*	Planned and executed environmental health science projects in support of U.S. military and civilian personnel throughout the European and Central Command areas of responsibility  
 
 
-## PROFESSIONAL COURSES
+## PROFESSIONAL COURSES  
 
-Preventive Medicine Senior Leaders Course (2016)
-Humanitarian Assistance Response Training (2015)
-Command and General Staff Officer Course (2014-2015)
-Operational Clinical Infectious Disease Course (2014)
-USMA Center for Faculty Excellence Master Teacher Program (2013)
-Operations Research/Systems Analysis (ORSA) Familiarization (2009)
-Army Medical Department Captains Career Course (2006)
-Basic Industrial Hygiene Course (2002)
-Principles of Military Preventive Medicine Course (2002)
-Army Medical Department Officer Basic Course (2002)
+Preventive Medicine Senior Leaders Course (2016)  
+Humanitarian Assistance Response Training (2015)  
+Command and General Staff Officer Course (2014-2015)  
+Operational Clinical Infectious Disease Course (2014)  
+USMA Center for Faculty Excellence Master Teacher Program (2013)  
+Operations Research/Systems Analysis (ORSA) Familiarization (2009)  
+Army Medical Department Captains Career Course (2006)  
+Basic Industrial Hygiene Course (2002)  
+Principles of Military Preventive Medicine Course (2002)  
+Army Medical Department Officer Basic Course (2002)  
 
-## MILITARY AWARDS AND DECORATIONS
+## MILITARY AWARDS AND DECORATIONS  
 
-Meritorious Service Medal (2)
+Meritorious Service Medal (2)  
 Army Commendation Medal (3) 
 Army Achievement Medal 
-Army Valorous Unit Award
-National Defense Service Medal
-Global War on Terrorism Expeditionary Medal
-Global War on Terrorism Service Medal
-Army Service Ribbon
-Overseas Service Ribbon (2)
-Combat Medical Badge
-Expert Field Medical Badge
-Army Staff Identification Badge
+Army Valorous Unit Award  
+National Defense Service Medal  
+Global War on Terrorism Expeditionary Medal  
+Global War on Terrorism Service Medal  
+Army Service Ribbon  
+Overseas Service Ribbon (2)  
+Combat Medical Badge  
+Expert Field Medical Badge  
+Army Staff Identification Badge  
  
 
 ## PUBLICATIONS AND PRESENTATIONS
 
-### Publications:
+### Publications
 
-Baideme, M., Pfluger, A., Lewandowski, S., Matthew, K., and Starke, J.  (2014) “An Engineering Perspective on Collaborative Client-Based Service-Learning Projects in an Introductory Environmental Engineering and Science Course.” Science Education & Civic Engagement: An International Journal (SECIJ), 6:1, 45-51. http://seceij.net/seceij/winter14/engineering_per.html
+Baideme, M., Pfluger, A., Lewandowski, S., Matthew, K., and Starke, J.  (2014) “An Engineering Perspective on Collaborative Client-Based Service-Learning Projects in an Introductory Environmental Engineering and Science Course.” Science Education & Civic Engagement: An International Journal (SECIJ), 6:1, 45-51. http://seceij.net/seceij/winter14/engineering_per.html  
 
-Lewandowski, S. A. & Faulkenberry, J. B. (2007) “A guide to brigade-level preventive medicine: Stryker brigade experience in Operation Iraqi Freedom II & III.” US Army Medical Department Journal, PB 8-07-4/5/6, 35-40. http://www.cs.amedd.army.mil/AMEDDJournal/2007aprjun.pdf
+Lewandowski, S. A. & Faulkenberry, J. B. (2007) “A guide to brigade-level preventive medicine: Stryker brigade experience in Operation Iraqi Freedom II & III.” US Army Medical Department Journal, PB 8-07-4/5/6, 35-40. http://www.cs.amedd.army.mil/AMEDDJournal/2007aprjun.pdf  
 
-Pfluger, Andrew R., Baideme, M., Matthew, K., Lewandowski, S., Starke, J., and Butkus, M.  (2013) "Interdisciplinary, real-world, client-based term projects in an introductory environmental engineering and science course."  Proceedings of the 120th ASEE Annual Conference and Exposition; Atlanta, Georgia, June 23-26; Paper ID #6254. http://www.asee.org/public/conferences/20/papers/6254/view
+Pfluger, Andrew R., Baideme, M., Matthew, K., Lewandowski, S., Starke, J., and Butkus, M.  (2013) "Interdisciplinary, real-world, client-based term projects in an introductory environmental engineering and science course."  Proceedings of the 120th ASEE Annual Conference and Exposition; Atlanta, Georgia, June 23-26; Paper ID #6254. http://www.asee.org/public/conferences/20/papers/6254/view  
 
-### Presentations:
+### Presentations
 
-Lewandowski, S.A., “Sediment Quality Assessment of New York Watersheds.” New York City Watershed/Tifft Science & Technical Symposium, Session XIV: Supply Protection (West Point, NY), September 19, 2013. http://nywea.org/meetings/ConfDocs/WatershedProgram13.pdf (abstract, page 16)
+Lewandowski, S.A., “Heat Illness and Climate Extremes in the United States.” Environmental Health Sciences Seminar Series, Columbia University (NY, NY), October 29, 2018.  
 
 
-### Poster Session:
+Lewandowski, S.A., “Sediment Quality Assessment of New York Watersheds.” New York City Watershed/Tifft Science & Technical Symposium, Session XIV: Supply Protection (West Point, NY), September 19, 2013. http://nywea.org/meetings/ConfDocs/WatershedProgram13.pdf (abstract, page 16)  
 
-Lewandowski, S.A., “Assessment of Tablet Use in an Environmental Science Course.” Assessment Network of New York Workshops & Conference (West Point, NY), April 2013.
+
+### Poster Session  
+
+Lewandowski, S.A., “Assessment of Tablet Use in an Environmental Science Course.” Assessment Network of New York Workshops & Conference (West Point, NY), April 2013.  

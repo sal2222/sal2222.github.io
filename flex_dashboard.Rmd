@@ -1,0 +1,93 @@
+---
+title: "West Point, NY Weather, 1998-2002"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(viridis)
+library(p8105.datasets)
+library(plotly)
+library(flexdashboard)
+
+```
+
+
+This dashboard examines daily weather from GHCND station ID "USC00309292", located in West Point, NY, from June 01, 1998 to May 31, 2002. I was there during this time period as a cadet.  
+
+Station details are available from [NOAA](https://www.ncdc.noaa.gov/cdo-web/datasets/GHCND/stations/GHCND:USC00309292/detail). The station is located near the Cadet Chapel at the United States Military Academy.
+
+
+```{r station_data}
+
+data(ny_noaa)
+
+# Filter station, select date range, convert temperature units to deg C
+west_point_noaa <- 
+  ny_noaa %>%
+  filter(id == "USC00309292",
+         date > "1998-06-01" & date < "2002-05-31") %>% 
+   separate(date, into = c("year", "month", "day"), remove = FALSE, convert = TRUE) %>% 
+   mutate(tmax = as.numeric(tmax) / 10,
+          tmin = as.numeric(tmin) / 10,
+          prcp_mm = as.numeric(prcp) / 10,
+          snow_mm = snow)
+  
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### A. Daily maximum and minimum temperature (deg C)
+
+This scatterplot shows the correlation between maximum and minimum daily temperatures.
+
+```{r tmax_tmin_scatterplot}
+
+west_point_noaa %>%
+  mutate(text_label = str_c("tmax: ", tmax, "\ntmin: ", tmin, "\ndate: ", date)) %>% 
+  plot_ly(x = ~tmax, y = ~tmin, type = "scatter", mode = "markers",
+          alpha = 0.5, 
+          color = ~year,
+          text = ~text_label) %>% 
+          layout(title = "Daily maximum and minimum temperature (deg C)")
+
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### B. Precipitation (mm) by month
+
+This boxplot shows the distribution of precipitation by month. Although the distribution is skewed, the boxplots are helpful for detecting outlers. The most extreme outlier  occurs on September 17, 1999 due to Hurricane Floyd.
+
+```{r precip_month_boxplot}
+west_point_noaa %>%
+  mutate(month = factor(month),
+         text_label = str_c("date: ", date)) %>% 
+  plot_ly(y = ~prcp_mm, color = ~month, type = "box",
+          text = ~text_label) %>% 
+          layout(title = "Daily precipitation (mm) by month")
+  
+```
+
+### C. Yearly total snowfall(mm)
+
+This bar chart shows the snowfall and snow depth observations for the 8 highest measured snowfall days. 
+
+```{r snowfall_barchart}
+
+west_point_noaa %>%
+  top_n(8, snow_mm) %>% 
+  mutate(date = factor(date),
+         date = fct_reorder(date, snow_mm, .desc = TRUE)) %>%
+  plot_ly(x = ~date, y = ~snow_mm, name = "snowfall", type = "bar") %>%
+          add_trace(y = ~snwd, name = 'snow depth') %>%
+          layout(title = "Highest measured snowfall and snow depth(mm) days")
+
+
+```

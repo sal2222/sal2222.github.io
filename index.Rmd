@@ -6,15 +6,25 @@ output:
     toc_float: true
 ---
 
-### ADD RESUME PAGE~~~~~~~~~~~~~
+```{r render, include = FALSE}
+rmarkdown::render("flex_dashboard.Rmd", output_format = "flex_dashboard")
+```
 
 Welcome to my personal website! I am a second year PhD student at Columbia University Mailman School of Public Health in the Environmental Health Sciences Climate and Health program.        
 
-<img src="images/cumc_photo.jpg" style="width:25%">
+<p style="align:center">
+<img src="images/cumc_photo.jpg" style="width:25%" border="1" />
+</p>
 
 ### Academic and professional experience
 
-A page giving my academic and professional experience -- [resume] (resume.html)
+Click [here](resume.html)  for my resume page, citing my academic and professional experience.
+
+
+### NY NOAA Flexdashboard
+
+Create a [flexdashboard](flex_dashboard.html) using plotly for that includes at least three distinct plot types (e.g. scatterplots, line plots, bar plots, box plots, etc.)
+
 
 ### Links 
 
@@ -27,30 +37,11 @@ A page giving my academic and professional experience -- [resume] (resume.html)
 [E-mail](sal2222@cumc.columbia.edu)    
 
 
-### NY NOAA Flexdashboard
-
-Create a [flexdashboard](flexdashboard.html) using plotly for that includes at least three distinct plot types (e.g. scatterplots, line plots, bar plots, box plots, etc.)
-
 ### About this site
 
-I can link directly to my [about page](about.html).
+[About page](about.html).
 
 
 
-
-### Picture of Jeff's dog
-
-<img src="images/p8105_logo.jpg" style="width:75%">
-
-### I can add [code](code.html)
-
-```{r}
-library(tidyverse)
-tibble(
-    x = 1:10,
-    y = x + 2
-)
-
-```
 
 
