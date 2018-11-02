@@ -17,4 +17,4 @@ navbar:
       href: about.html
 output:
   html_document:
-    theme: cosmo  #bootswatch.com
+    theme: sandstone  #bootswatch.com

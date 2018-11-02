@@ -21,9 +21,9 @@ Welcome to my personal website! I am a second year PhD student at Columbia Unive
 Click [here](resume.html)  for my resume page, citing my academic and professional experience.
 
 
-### NY NOAA Flexdashboard
+### Weather Dashboard
 
-Create a [flexdashboard](flex_dashboard.html) using plotly for that includes at least three distinct plot types (e.g. scatterplots, line plots, bar plots, box plots, etc.)
+View a [flexdashboard](flex_dashboard.html) of West Point, NY weather from 1998 to 2002. The data source is NOAA GHCND daily data.  
 
 
 ### Links 
@@ -39,7 +39,7 @@ Create a [flexdashboard](flex_dashboard.html) using plotly for that includes at 
 
 ### About this site
 
-[About page](about.html).
+[About page](about.html)
 
 
 
