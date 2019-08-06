@@ -5,7 +5,7 @@ title: "Resume"
 # This page gives my academic and professional experience.
 ```
 
-Stephen A. Lewandowski, CPH   
+**Stephen A. Lewandowski, CPH**   
 PhD Candidate, Columbia University Mailman School of Public Health  
 Lieutenant Colonel, U.S. Army  
 sal2222@cumc.columbia.edu  
